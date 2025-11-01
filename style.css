@@ -1,11 +1,23 @@
 /* this is a CSS comment*/
 body {
-
+background-color: rgb(251, 223, 191);
+border-style: inset;
 }
 
 h1 {
-
+color: rgb(125, 45, 85);
 }
+h2 {
+color: rgb(174, 60, 117);
+}
+
+
+.adsrArea input{
+input[type=range] {
+  accent-color: hotpink;
+}
+}
+
 
 .ctlArea{
 
@@ -16,5 +28,18 @@ h1 {
 }
 
 #transportArea {
+    color: rgb(254, 179, 67);
+    background-color: rgb(140, 106, 68);
+    border-radius: 50px;
+    padding: 16px 16px;
 
+
+button {
+  background-color: rgb(33, 113, 133);
+  color: rgb(254, 179, 67);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  transition: transform 0.2s;
+}
 }
